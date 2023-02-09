@@ -11,11 +11,11 @@ function App() {
       {/* <Principal/> */}
       <HashRouter>
         <Routes>
-          <Route path='/principal' element={<Principal/>}/>
-          <Route path='/info'/>
+          <Route path='/' element={<Principal/>}/>
+          <Route path='/info' element={<InfoBets />}/>
         </Routes>
       </HashRouter>
-      <InfoBets />
+      
     </div>
   )
 }
